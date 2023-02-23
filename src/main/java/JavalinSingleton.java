@@ -13,7 +13,7 @@ public class JavalinSingleton {
      * You will not need to run app.start in this method. The test cases, or main method, will do this for you - this
      * method only needs to return a properly configured Javalin Server, represented by the 'app' object created below.
      * 
-     * Note: Please refer to the "CreatingEndpoints.MD" file for more assistance if needed.
+     * Note: Please refer to the "CreatingEndpoints.MD" file for more assistance if needed. 
      */
     public static Javalin getInstance(){
         Javalin app = Javalin.create();
